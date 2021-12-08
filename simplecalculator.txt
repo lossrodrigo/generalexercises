@@ -1,6 +1,6 @@
 ====
 
-	A simple two numbers calculator 
+	A simple two numbers calculator.
 
 ====
 
