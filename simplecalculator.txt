@@ -1,0 +1,29 @@
+====
+
+	A simple two numbers calculator 
+
+====
+
+import kotlin.io.*
+import kotlin.text.*
+
+
+
+fun main(args: Array<String>) {
+
+    println("============ WELCOME TO KOTLIN CALCULATOR ============")
+    println()
+    println("   Type the first number: use \".\" for decimal")
+    print("->")
+    val n1 = readLine()!!.toDouble()
+
+    println("Choose a operation: +, -, * or /")
+    print("->")
+    val operation = readLine()!!.toString()
+
+    println("Type the second number: Use \".\" for decimal")
+    print("->")
+    val n2 = readLine()!!.toDouble()
+
+    resultOfOperation(operation, n1, n2)
+}
